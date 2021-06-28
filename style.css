@@ -1,0 +1,28 @@
+*{
+    margin: 0% auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: black;
+}
+
+.flex{
+    display: flex;
+}
+
+main.container{
+    width: 80%;
+    flex-flow: row wrap;
+    background-color: red;
+    justify-content: flex-end;
+
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    
+}
